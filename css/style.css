@@ -63,7 +63,8 @@ body {
     padding-right: 1rem;
 }
 
-.start-quiz {
+.start-quiz,
+.try-again-button {
     margin-top: 3rem;
     height: 3.2rem;
     width: 11rem;
@@ -71,6 +72,7 @@ body {
     text-align: center;
     background-color: lightsalmon;
     color: antiquewhite;
+    cursor: pointer;
 }
 
 .additional-info {
