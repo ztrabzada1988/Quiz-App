@@ -1,0 +1,107 @@
+/*---------------------------------------------------------------------------------
+Common Styles
+---------------------------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url('../Images/planets.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.masthead {
+    height: 4rem;
+    width: 45rem;
+    margin: 4rem auto;
+    text-align: center;
+    font-size: 2.5rem;
+    color: antiquewhite;
+    font-family: serif;
+    text-transform: uppercase;
+}
+
+.masthead-header {}
+
+.take-quiz,
+.quiz,
+.response {
+    border: 1px solid beige;
+    border-radius: 0.5rem;
+    background-color: #515D51;
+    opacity: 0.7;
+    height: 16rem;
+    width: 32rem;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+    color: gold;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.start-quiz {
+    margin-top: 3rem;
+    height: 3.2rem;
+    width: 11rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: lightsalmon;
+    color: antiquewhite;
+}
+
+.additional-info {
+    display: none;
+}
+
+.quiz {
+    display: none;
+}
+
+.questions {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #55E5FF;
+}
+
+.choices {
+    margin: 1.2rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.option {
+    margin: 1rem;
+}
+
+.track-questions {
+    font-size: 1.2rem;
+    color: blanchedalmond;
+}
+
+.response {
+    display: none;
+}
