@@ -114,11 +114,11 @@ $(document).ready(function () {
         if (answer == correctAnswer) {
 
             // if the right choices is selected by the user, increment correctTotal by 1
-            correctTotal++
+            correctTotal++;
         }
 
-        $('.choice-response').append("<h4>Q: " + questionsArray[currentQuestionNumber].questionText + "</h4>");
-        $('.choice-response').append("<h4>A: " + questionsArray[currentQuestionNumber].details + "</h4>");
+        $('.choice-response').append("<h4 class='response-question'>Q: " + questionsArray[currentQuestionNumber].questionText + "</h4>");
+        $('.choice-response').append("<h4 class='response-answer'>A: " + questionsArray[currentQuestionNumber].details + "</h4>");
 
         // when question is finished show the response
 
